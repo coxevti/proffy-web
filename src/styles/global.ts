@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 :root {
@@ -29,7 +29,7 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 html, body, #root {
-  height: 100vh;
+  min-height: 100vh;
 }
 body {
   background: var(--color-background);
