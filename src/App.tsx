@@ -1,11 +1,11 @@
 import React from 'react';
-import Landing from './pages/Landing';
 import GlobalStyled from './styles/global';
+import Routes from './routes';
 
 const App: React.FC = () => (
   <>
     <GlobalStyled />
-    <Landing />
+    <Routes />
   </>
 );
 
