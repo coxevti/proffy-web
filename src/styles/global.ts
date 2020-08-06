@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 :root {
@@ -41,6 +41,7 @@ body {
 }
 body, input, button, textarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
 }
 .container {
   width: 90vw;

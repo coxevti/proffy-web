@@ -1,8 +1,12 @@
-import React from 'react';
-import PageHeader from '../../components/PageHeader';
-
-import { PageTeacherList, FormSearchTeachers, InputBlock } from './styles';
-
+import React from "react";
+import PageHeader from "../../components/PageHeader";
+import TeacherItem from "../../components/TeacherItem";
+import {
+  FormSearchTeachers,
+  InputBlock,
+  Main,
+  PageTeacherList,
+} from "./styles";
 
 const TeacherList: React.FC = () => (
   <PageTeacherList>
@@ -22,6 +26,13 @@ const TeacherList: React.FC = () => (
         </InputBlock>
       </FormSearchTeachers>
     </PageHeader>
+    <Main>
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+      <TeacherItem />
+    </Main>
   </PageTeacherList>
 );
 

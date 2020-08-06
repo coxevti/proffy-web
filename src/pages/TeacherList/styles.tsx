@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const PageTeacherList = styled.div`
   width: 100vw;
@@ -44,7 +44,7 @@ export const InputBlock = styled.div`
   &:focus-within::after {
     width: calc(100% - 3.2rem);
     height: 2px;
-    content: '';
+    content: "";
     background: var(--color-primary-light);
     position: absolute;
     left: 1.6rem;
@@ -55,5 +55,15 @@ export const InputBlock = styled.div`
     & + div {
       margin-top: 0;
     }
+  }
+`;
+
+export const Main = styled.main`
+  margin: 3.2rem auto;
+  width: 90%;
+  @media (min-width: 700px) {
+    padding: 3.2rem;
+    max-width: 740px;
+    margin: 0 auto;
   }
 `;
